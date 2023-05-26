@@ -14,15 +14,14 @@
     <br/>
     <form method="POST" action="{%url 'home'%}">
         {% csrf_token %}
-        <form>
             <div class="mb-3">
               <input type="text" required class="form-control" name="username", placeholder="Userame">
             </div>
             <div class="mb-3">
               <input type="password" required class="form-control" name="password", placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-secondary">Submit</button>
-          </form> 
+            <button type="submit" class="btn btn-secondary">Login</button>
+ 
     </form>
 
 </div>
